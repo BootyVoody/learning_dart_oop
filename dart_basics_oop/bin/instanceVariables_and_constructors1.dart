@@ -43,10 +43,9 @@ class LightWarrior extends Paladin {
 
   static int _epicLevelRandom() => Random().nextInt(100);
 
-
   @override
   String toString() {  
-    return lightPower != null ? '${super.toString()} -> LightPower: lightPower = [$lightPower]' : super.toString();
+    return lightPower != null ? '${super.toString()}, lightPower = [$lightPower]' : super.toString();
   }
 }
 
